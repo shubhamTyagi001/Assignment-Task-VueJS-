@@ -41,7 +41,7 @@ export default {
              let parseData = JSON.parse(data)
              this.formData.previousData = parseData
             }else{
-              this.$router.push('/');
+              this.$router.push('/'); 
             }
         },
 
